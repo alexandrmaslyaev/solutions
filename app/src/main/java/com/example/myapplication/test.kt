@@ -1,5 +1,7 @@
 package com.example.myapplication
 
+import com.example.myapplication.leetcode.easy.FirstUniqueCharacterInAString387
+
 fun main() {
-    // Test your function here
+    println(FirstUniqueCharacterInAString387.firstUniqChar("aabb"))
 }
