@@ -1,12 +1,7 @@
 package com.example.myapplication
 
-import com.example.myapplication.leetcode.easy.HappyNumber202
-import java.lang.Thread.sleep
-import kotlin.concurrent.thread
-import kotlin.coroutines.Continuation
-import kotlin.coroutines.resume
-import kotlin.coroutines.suspendCoroutine
+import com.example.myapplication.leetcode.medium.ThreeSum15
 
 fun main() {
-    print(HappyNumber202.isHappy(7))
+    print(ThreeSum15.threeSum(intArrayOf(1,2,-2,-1)))
 }
