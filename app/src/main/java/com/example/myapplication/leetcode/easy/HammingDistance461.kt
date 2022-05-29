@@ -1,8 +1,5 @@
 package com.example.myapplication.leetcode.easy
 
-import kotlin.math.max
-import kotlin.math.min
-
 object HammingDistance461 {
     fun hammingDistance(x: Int, y: Int): Int {
         val binX = Integer.toBinaryString(x)
